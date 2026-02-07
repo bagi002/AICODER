@@ -1,0 +1,8 @@
+# High-level Requirements
+# This file contains high-level requirements written by humans.
+
+- id: REQ-001
+  name: Basic Application Setup
+  status: Draft
+  description: >
+    Set up the basic application structure with the selected components.

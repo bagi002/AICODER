@@ -1,0 +1,16 @@
+@startuml Runtime Diagram
+title Runtime Diagram
+
+actor User
+participant Frontend
+participant Backend
+participant Database
+
+User -> Frontend: Request
+Frontend -> Backend: API Call
+Backend -> Database: Query
+Database --> Backend: Response
+Backend --> Frontend: Data
+Frontend --> User: Display
+
+@enduml

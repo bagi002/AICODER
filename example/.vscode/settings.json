@@ -1,0 +1,47 @@
+{
+    "highlight.regexes": {
+        "(In Progress)": {
+            "regexFlags": "gi",
+            "filterFileRegex": ".*\.yaml",
+            "decorations": [
+                {"color": "black", "backgroundColor": "yellow"}
+            ]
+        },
+        "(Draft)": {
+            "regexFlags": "gi",
+            "filterFileRegex": ".*\.yaml",
+            "decorations": [
+                {"color": "white", "backgroundColor": "red"}
+            ]
+        },
+        "(Finished)": {
+            "regexFlags": "gi",
+            "filterFileRegex": ".*\.yaml",
+            "decorations": [
+                {"color": "white", "backgroundColor": "green"}
+            ]
+        },
+        "(In Review)": {
+            "regexFlags": "gi",
+            "filterFileRegex": ".*\.yaml",
+            "decorations": [
+                {"color": "black", "backgroundColor": "white"}
+            ]
+        },
+        "(In progress)": {
+            "regexFlags": "gi",
+            "filterFileRegex": ".*\.yaml",
+            "decorations": [
+                {"color": "black", "backgroundColor": "yellow"}
+            ]
+        }
+    },
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "text": "Follow project architecture. Do not modify unrelated files. Return full files only."
+        },
+        {
+            "text": "Before answering, read AGENTS.md and remind the user that high-level requirements must be written by a human in Docs/requirements/high_level_requirements.yaml before AI work begins."
+        }
+    ]
+}
