@@ -1,0 +1,8 @@
+# High-level Requirements
+# Ovaj fajl sadrži high-level requirements koje pišu ljudi.
+
+- id: REQ-001
+  name: Osnovno postavljanje aplikacije
+  status: Draft
+  description: >
+    Postaviti osnovnu strukturu projekta sa izabranim komponentama.

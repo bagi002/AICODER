@@ -1,9 +1,0 @@
-# Software Requirements
-# This file contains software requirements written by AI agents.
-
-- id: REQ-SW-001
-  name: Core Component Functionality
-  status: Draft
-  refines: REQ-001
-  description: >
-    Implement basic functionality for the selected components (e.g., APIs, services).

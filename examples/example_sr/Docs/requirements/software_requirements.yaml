@@ -1,0 +1,9 @@
+# Software Requirements
+# Ovaj fajl sadrži softverske requirements koje piše AI agent.
+
+- id: REQ-SW-001
+  name: Osnovne funkcionalnosti komponenti
+  status: Draft
+  refines: REQ-001
+  description: >
+    Implementirati osnovnu funkcionalnost za izabrane komponente (npr. API-je, servise).
