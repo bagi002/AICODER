@@ -1,0 +1,140 @@
+{
+  "id": "data_ml",
+  "name": "Data / ML",
+  "description": "Data and machine learning pipeline with backend component.",
+  "folders": [
+    ".vscode",
+    "Automation",
+    "Docs",
+    "Docs/requirements",
+    "Docs/architecture",
+    "data",
+    "ml",
+    "backend"
+  ],
+  "files": [
+    {
+      "id": "vscode_settings",
+      "source": ".vscode/settings.json",
+      "target": ".vscode/settings.json",
+      "enabled": true,
+      "executable": false,
+      "post_process": "none"
+    },
+    {
+      "id": "docs_builder",
+      "source": "scripts/docs_builder.py",
+      "target": "Automation/docs_builder.py",
+      "enabled": true,
+      "executable": true,
+      "post_process": "none"
+    },
+    {
+      "id": "bootstrap_envs",
+      "source": "scripts/bootstrap_envs.sh",
+      "target": "Automation/bootstrap_envs.sh",
+      "enabled": true,
+      "executable": true,
+      "post_process": "none"
+    },
+    {
+      "id": "high_level_requirements",
+      "source": "docs/requirements/high_level_requirements.yaml",
+      "target": "Docs/requirements/high_level_requirements.yaml",
+      "enabled": true,
+      "executable": false,
+      "post_process": "none"
+    },
+    {
+      "id": "software_requirements",
+      "source": "docs/requirements/software_requirements.yaml",
+      "target": "Docs/requirements/software_requirements.yaml",
+      "enabled": true,
+      "executable": false,
+      "post_process": "none"
+    },
+    {
+      "id": "runtime_diagram",
+      "source": "docs/architecture/runtime_diagram.puml",
+      "target": "Docs/architecture/runtime_diagram.puml",
+      "enabled": true,
+      "executable": false,
+      "post_process": "none"
+    },
+    {
+      "id": "class_diagram",
+      "source": "docs/architecture/class_diagram.puml",
+      "target": "Docs/architecture/class_diagram.puml",
+      "enabled": true,
+      "executable": false,
+      "post_process": "none"
+    },
+    {
+      "id": "block_diagram",
+      "source": "docs/architecture/block_diagram.puml",
+      "target": "Docs/architecture/block_diagram.puml",
+      "enabled": true,
+      "executable": false,
+      "post_process": "none"
+    },
+    {
+      "id": "agents_md",
+      "source": "readmes/{lang_folder}/AGENTS.md",
+      "target": "AGENTS.md",
+      "enabled": true,
+      "executable": false,
+      "post_process": "none"
+    },
+    {
+      "id": "automation_readme",
+      "source": "readmes/{lang_folder}/README_Automation.md",
+      "target": "Automation/README.md",
+      "enabled": true,
+      "executable": false,
+      "post_process": "none"
+    },
+    {
+      "id": "root_readme",
+      "source": "readmes/{lang_folder}/README_root.md",
+      "target": "README.md",
+      "enabled": true,
+      "executable": false,
+      "post_process": "replace_first_heading_with_project_name"
+    },
+    {
+      "id": "root_gitignore",
+      "source": ".gitignore",
+      "target": ".gitignore",
+      "enabled": true,
+      "executable": false,
+      "post_process": "none"
+    },
+    {
+      "id": "setup_script",
+      "source": "scripts/setup.sh",
+      "target": "setup.sh",
+      "enabled": true,
+      "executable": true,
+      "post_process": "none"
+    },
+    {
+      "id": "start_script",
+      "source": "scripts/start.sh",
+      "target": "start.sh",
+      "enabled": true,
+      "executable": true,
+      "post_process": "none"
+    }
+  ],
+  "runtime": {
+    "setup_docs_venv": true,
+    "docs_venv_path": "Automation/docs_venv",
+    "docs_packages": [
+      "pyyaml",
+      "requests"
+    ]
+  },
+  "behavior": {
+    "add_gitkeep_to_empty_folders": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "description": "Main registry that links all project setup configurations.",
+  "configurations": [
+    {
+      "id": "data_ml",
+      "scope": "owner",
+      "path": "owner/data_ml.json"
+    },
+    {
+      "id": "embedded_iot",
+      "scope": "owner",
+      "path": "owner/embedded_iot.json"
+    },
+    {
+      "id": "web_app",
+      "scope": "owner",
+      "path": "owner/web_app.json"
+    },
+    {
+      "id": "test22",
+      "scope": "user_generated",
+      "path": "user_generated/test22.json"
+    },
+    {
+      "id": "test_config",
+      "scope": "user_generated",
+      "path": "user_generated/test_config.json"
+    }
+  ]
+}

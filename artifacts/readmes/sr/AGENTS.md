@@ -1,8 +1,4 @@
-# Opšta Uputstva za AI Agente u Projektima
-
-## Opšti Pregled
-Ovaj dokument definiše stroga, formalna i nedvosmislena pravila koja AI agenti moraju slediti prilikom obrade korisničkih zahteva u softverskim projektima. Svi koraci moraju biti izvršeni redom, bez izuzetaka, osim ako nije drugačije navedeno. Dokument pretpostavlja standardnu folder strukturu projekta, koja se može prilagoditi specifičnim potrebama.
-**Pre svakog zadatka obavezno pročitaj ovo AGENTS.md uputstvo pre nego što analiziraš zahtev.**
+# Uputstva za AI Agente u Projektu
 
 ## Koraci za Obradu Zahteva
 Za svaki dobijeni prompt zahtjev, AI agent mora izvršiti sledeće korake u navedenom redosledu:
@@ -17,13 +13,14 @@ Za svaki dobijeni prompt zahtjev, AI agent mora izvršiti sledeće korake u nave
 5. **Napisati arhitekturu i dizajn sistema**:
    - Na osnovu softverskih requirements, napisati ili ažurirati arhitekturu i dizajn sistema.
    - Implementacija treba da bude prikazana kroz PUML fajlove.
-6. **Implementirati funkcionalnosti u relevantnim komponentama** (backend, frontend, firmware, data, itd.).
-7. **Implementirati funkcionalnosti u ostalim komponentama** prema strukturi projekta.
+6. **Implementirati funkcionalnosti u relevantnim komponentama**
+7. **Opisi pokretanja i načini korišćenja kao i osnovne informacije o projektu u README.md fajlu u root folderu projekta se uvek moraju nalaziti**
+
 
 ## Očekivana Folder Struktura Projekta
 - `.vscode/`: Podešavanja za VS Code.
-- `Automation/`: Skripte za automatizaciju (uključuje `docs_builder.py`).
-- Komponente projekta (npr. `backend/`, `frontend/`, `firmware/`, ...).
+- `Automation/`: Skripte za automatizaciju (uključuje `docs_builder.py`). Ai ne dira
+- Komponente projekta (npr. `backend/`, `frontend/`, `firmware/`, ...). U njima je kod, AI implementira funkcionalnosti.
 - `Docs/`:
   - `requirements/`: high-level i softverski requirements.
   - `architecture/`: PUML dijagrami (runtime, class, block).

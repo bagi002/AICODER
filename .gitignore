@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+
+# User-generated configurations are local-only.
+configurations/user_generated/*
+!configurations/user_generated/.gitkeep
+
